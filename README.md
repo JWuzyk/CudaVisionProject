@@ -7,9 +7,11 @@ Task: Create a neural network to perform tasks relevant to the vision system for
 We used a U-net like network based on the paper [1]. A network based on DeepLabV3 [2] was also tested.
 
 ## Results
-Our results on the detction task are visualised here. 
+Our results on the detction task are visualised here. The middle line is the ground truth and the bottom line is our prediction. We learned heatmaps to predict the centerpoints of objects. Green represents goalposts, Blue represents other robots and red represents football balls.
 ![](/images/segmentation_task.png)
 
+
+The next image depicts the results on the segmentation task.
 ![](/images/detection_task.png?)
 
 ## Citations
