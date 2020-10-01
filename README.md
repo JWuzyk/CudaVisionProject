@@ -8,11 +8,12 @@ We used a U-net like network based on the paper [1]. A network based on DeepLabV
 
 ## Results
 Our results on the detction task are visualised here. The middle line is the ground truth and the bottom line is our prediction. We learned heatmaps to predict the centerpoints of objects. Green represents goalposts, Blue represents other robots and red represents football balls.
-![](/images/segmentation_task.png)
+![](/images/detection_task.png?)
 
 
 The next image depicts the results on the segmentation task.
-![](/images/detection_task.png?)
+![](/images/segmentation_task.png)
+
 
 ## Citations
 
